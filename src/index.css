@@ -2,7 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Courier New',Courier,monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+  background-image: linear-gradient(to right bottom, #e74929, #bd0357);
+  min-height: 100vh;
+}
+
+
+button {
+  cursor: pointer;
 }
