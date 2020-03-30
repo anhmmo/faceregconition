@@ -13,7 +13,11 @@ class App extends Component {
     super();
     this.state = {
       input: '',
-    };
+    }
+  }
+
+  onInputChange = (event) => {
+    console.log(event.target.value);
   }
 
 render(){
@@ -37,7 +41,7 @@ render(){
         <Navigation />
         <Logo />
         <Rank />
-        <ImageLinkForm />
+        <ImageLinkForm onInputChange={this.onInputChange} />
         <FaceRecognition />
       </div>
     );
