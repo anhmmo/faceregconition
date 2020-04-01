@@ -1,0 +1,7 @@
+.measure, .measure input, label, .register-name {
+    color: white !important;
+}
+
+.register-name {
+    cursor: pointer !important;
+}
